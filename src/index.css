@@ -3,8 +3,14 @@ body{
   font-family: sans-serif;
 }
 
+video{
+margin-top: -6px;
+  height: 196px;
+  margin: 1px
+}
+
 #container{
-  width: 570px;;
+  width: 570px;
   position: absolute;
   left: 30%;
   top: 10%;
@@ -39,8 +45,21 @@ body{
   justify-content: center;
   align-items: center;
   height: 200px;
+  margin: 1px;
 }
 
+#v1{
+  visibility: visible;
+}
 
-/* 
- */
+#v1:hover{
+  visibility: hidden;
+}
+
+#v2{
+  visibility: visible;
+}
+
+#v3{
+  visibility: visible;
+}
