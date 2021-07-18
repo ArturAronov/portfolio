@@ -52,10 +52,6 @@ margin-top: -6px;
   visibility: visible;
 }
 
-#v1:hover{
-  visibility: hidden;
-}
-
 #v2{
   visibility: visible;
 }
